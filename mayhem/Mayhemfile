@@ -1,0 +1,8 @@
+project: CoreXLSX
+target: fuzz-core-xlsx
+testsuite:
+    - file://mayhem/testsuite
+
+cmds:
+  - cmd: /release/XLSXFuzz
+    libfuzzer: true
